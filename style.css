@@ -652,6 +652,10 @@ footer.footer .heart {
 		font-weight: 800;
 	}
 
+  footer {
+    margin-bottom: 20px;
+  }
+
 	header {
 		height: 10vh;
 	}
