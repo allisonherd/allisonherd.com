@@ -471,8 +471,8 @@ i.fa-solid.fa-magnifying-glass {
 
 /* Hero */
 .hero {
-	margin-top: 150px;
-	margin-bottom: 25px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	display: -ms-grid;
 	display: grid;
 	place-content: center;
