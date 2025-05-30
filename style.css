@@ -721,6 +721,9 @@ footer.footer .heart {
 		height: 55vh;
 	}
 
+	.spinner {
+		height: 150px;
+	}
 
 	footer {
 		margin-bottom: 20px;
