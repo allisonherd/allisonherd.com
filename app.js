@@ -88,12 +88,16 @@ class Spinner {
 
 Spinner.Go();
 
-const navToggle = document.querySelector('.nav-toggle');
+function handleClosingNavWhenClickingOnMobileMenuNavItems() {
+    const navToggle = document.querySelector('.nav-toggle');
 
-const navEls = document.querySelectorAll('.nav-list a');
+    const navEls = document.querySelectorAll('.nav-list a');
 
-navEls.forEach((el) => {
-    el.addEventListener('click', () => {
-        navToggle.click();
+    navEls.forEach((el) => {
+        el.addEventListener('click', () => {
+            navToggle.click();
+        });
     });
-})
+}
+
+handleClosingNavWhenClickingOnMobileMenuNavItems();
