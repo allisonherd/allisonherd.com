@@ -122,17 +122,15 @@ footer {
 	display: -ms-grid;
 	display: grid;
 	place-content: center;
-	color: var(--black);
+	color: var(--white);
 	height: 10vh;
 	text-align: center;
-	background-color: rgba(255, 255, 255, 0.5);
-	position: absolute;
 	margin-bottom: 10px;
 	
 }
 
 footer a {
-	color: var(--black);
+	color: var(--white);
 }
 
 input {
