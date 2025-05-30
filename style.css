@@ -588,7 +588,6 @@ section.img-gallery div.gallery-button-container {
 	box-shadow: var(--primary-box-shadow);
 }
 
-
 /* About */
 
 .about-container {
@@ -653,9 +652,14 @@ footer.footer .heart {
 		font-weight: 800;
 	}
 
-  footer {
-    margin-bottom: 20px;
-  }
+	.spinner {
+		height: 13vh;
+	}
+
+
+	footer {
+		margin-bottom: 20px;
+	}
 
 	header {
 		height: 10vh;
