@@ -87,3 +87,19 @@ class Spinner {
 }
 
 Spinner.Go();
+
+const navToggle = document.querySelector('.nav-toggle');
+
+const navEls = document.querySelectorAll('.nav-list a');
+
+navEls.forEach((el) => {
+    el.addEventListener('click', () => {
+        const visibility = document.querySelector('.nav-list').getAttribute('data-visible');
+
+        if (visibility === 'true') {
+            document.querySelector('.nav-list').setAttribute('data-visible', false);
+            navToggle.setAttribute('aria-expanded', false);
+            navToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+        }
+    });
+})
